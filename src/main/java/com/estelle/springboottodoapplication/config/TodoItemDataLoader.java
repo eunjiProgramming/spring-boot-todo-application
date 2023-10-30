@@ -31,5 +31,6 @@ public class TodoItemDataLoader implements CommandLineRunner {
         }
 
         logger.info("Number of TodoItems: {}", todoItemRepository.count());
+
     }
 }
